@@ -1,0 +1,95 @@
+body{
+    display: grid;
+    grid-template-columns: 7% 93%;
+}
+
+aside{
+    display: flex; 
+    flex-direction: column;
+    padding: 12px;
+    gap: 30px;
+}
+
+aside div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logyou{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navse{
+    gap: 0;
+}
+
+main{
+    margin-left: 15px;
+}
+
+.busca{
+    width: 550px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+.sear{
+    border-radius: 10px;
+}
+
+nav div{
+    display: flex;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+#videoscolum{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0;
+}
+
+.filaVid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.imagcuen{
+    width: 40px;
+    height: 40px;
+}
+
+.inf{
+    display: grid;
+    grid-template-columns: 15% 80%;
+ }
+
+ .video{
+    border-radius: 15%;
+
+ }
+
+ .pvid{
+    font-family: monospace ;
+ }
+
+ .ptit{
+    font-family: fantasy;
+ }
+
+
+*{
+    margin: 1px 2px 0 0;
+}
